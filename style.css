@@ -1,0 +1,17 @@
+/*
+Theme Name:     Superfish
+Theme URI:      http://purplepen.com
+Description:    Child theme for the Twenty Twelve theme adding Superfish menus
+Author:         Natalie MacLees
+Author URI:     http://nataliemac.com
+Template:       twentytwelve
+Version:        0.1.0
+*/
+
+@import url("../twentytwelve/style.css");
+
+@media screen and (min-width: 600px) {
+  .sf-js-enabled li ul {
+    display: block;
+  }
+}
